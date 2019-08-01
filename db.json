@@ -1,0 +1,39 @@
+{
+  "logs": [
+    {
+      "message": "Changed network card in server 0007",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-08-01T10:26:34.904Z",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "message": "1122 Wireless down again",
+      "attention": true,
+      "date": "2019-08-01T13:12:10.967Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Scot",
+      "lastName": "Darcy",
+      "id": 4
+    }
+  ]
+}
