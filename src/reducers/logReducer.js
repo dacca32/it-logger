@@ -26,6 +26,7 @@ export default(state = initialState, action) => {
         loading: false
       }
     case ADD_LOG:
+      console.log(action.payload, 'is the payload')
       return {
         ...state,
         logs: [ ...state.logs, action.payload ],
